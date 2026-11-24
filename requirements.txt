@@ -1,0 +1,6 @@
+# Install torch/torchvision FIRST, matched to your CUDA. The RTX 5070 is Blackwell
+# (sm_120) and needs a CUDA 12.8+ build, e.g.:
+#   pip install --index-url https://download.pytorch.org/whl/cu128 torch torchvision
+# Then: pip install -r requirements.txt
+numpy>=1.24
+matplotlib>=3.7
